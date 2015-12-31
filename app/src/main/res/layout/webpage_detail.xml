@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    tools:context="com.me.jbosset.myfirst.myfirst">
+
+
+    <TextView android:id="@+id/webpage_detail"
+    style="?android:attr/textAppearanceLarge"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:textIsSelectable="true"
+    tools:context="com.jbosset.oldrides.WebpageDetailFragment" />
+
+
+    <TextView android:id="@+id/dist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:textSize="25dp"
+        android:textColor="#000000"
+        android:text="1" />
+
+    <TextView android:id="@+id/speed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dist"
+        android:layout_marginTop="70dp"
+        android:textSize="25dp"
+        android:textColor="#000000"
+        android:text="2" />
+
+    <TextView android:id="@+id/elChange"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/speed"
+        android:layout_marginTop="70dp"
+        android:textSize="25dp"
+        android:textColor="#000000"
+        android:text="3" />
+
+    <TextView android:id="@+id/sumthin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/elChange"
+        android:layout_marginTop="70dp"
+        android:textSize="25dp"
+        android:textColor="#000000"
+        android:text="4"/>
+
+
+</RelativeLayout>
